@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.chat-section {
+  border-radius: 8px;
+  width: 800px;
+  max-width: 90%;
+  background-color: #bcddbf21;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.header-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px 8px 0 0;
+  gap: 10px;
+  background-color: #1a5319;
+  color: white;
+  padding: 10px 0;
+}
+
+.header-section img {
+  height: 40px;
+}
+
+.user-info {
+  background-color: #eee;
+  color: #1a5319;
+  font-weight: 400;
+  margin: 10px auto 5px auto;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+
+.message-area {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 600px;
+  overflow-y: auto;
+}
+
+.message {
+  margin-top: 10px;
+  max-width: 250px;
+  background-color: #80af81;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  padding: 5px 10px;
+  /* position: relative; */
+}
+
+.incoming {
+  background-color: #398e37;
+  color: #dddddd;
+  margin-right: auto;
+}
+
+.incoming h4 {
+  color: #ffffff;
+}
+
+.outgoing {
+  margin-left: auto;
+  background-color: #d6efd8;
+  color: #555555;
+}
+
+.outgoing h4 {
+  color: #333333;
+}
+
+.message h4 {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 2px;
+  margin: 2px;
+  /* position: absolute;
+  top: -20px; */
+}
+
+.message-input {
+  border-radius: 0 0 8px 8px;
+  font-size: 18px;
+  padding: 20px;
+  width: 100%;
+  outline: none;
+  resize: none;
+  background-color: #d6efd884;
+  border: none;
+  margin-bottom: -4px;
+}
+
+/********* custom scrollbar *********/
+::-webkit-scrollbar {
+  width: 4px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #398e37;
+  min-height: 5px;
+}
+
+/* room section */
+
+.room-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+#room-id-input {
+  padding: 5px;
+  width: 70%;
+  border: 1px solid #398e37;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+}
+#room-id-input:focus {
+  border: 1px solid #1a5319;
+}
+
+.room {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #666666;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.ai-checkbox-section {
+  margin: 3px 0 5px 0;
+  font-size: 14px;
+  color: #555555;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+input[type="checkbox"] {
+  border-radius: 5px;
+  accent-color: #398e37;
+  cursor: pointer;
+}
+

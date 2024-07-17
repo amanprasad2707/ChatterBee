@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat App</title>
+  <link rel="shortcut icon" href="./icons/chitchat-favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+  <section class="chat-section">
+    <div class="header-section">
+      <img src="./icons/chitchat-logo.svg" alt="message icon">
+
+    </div>
+
+    <!-- Main message area -->
+    <div class="message-area">
+      <!-- Room section -->
+      <div class="room-section">
+
+        <div class="input-section">
+          <input id="room-id-input" type="text" placeholder="Enter room id to chat">
+          <div class="ai-checkbox-section">
+            <input type="checkbox" name="ai-checkbox" id="ai-checkbox">
+            <label for="ai-checkbox">AI Chat</label>
+          </div>
+        </div>
+
+
+        <div class="room">
+          <h5>Your Room ID: </h5>
+          <p id="room-id"></p>
+        </div>
+      </div>
+
+      <!--* User info section (dynamic content will be generated here) -->
+      <!-- <div class="user-info">
+      <p>Aman joined</p> -->
+    </div>
+
+      <!--* Messages section (dynamic content will be generated here) -->
+      <!-- <div class="message outgoing">
+        <h4>You: </h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum doloremque voluptatibus neque!</p>
+      </div>
+
+      <div class="message incoming">
+        <h4>Rohit: </h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus ex sunt aperiam dolor.</p>
+      </div> -->
+    </div>
+
+    <!-- Input for typing messages -->
+    <div>
+      <textarea class="message-input" id="message-input" placeholder="write a message.." rows="1" cols="30"></textarea>
+    </div>
+  </section>
+
+  <!-- Socket.IO client library -->
+  <script src="/socket.io/socket.io.js"></script>
+  <!-- Client-side JavaScript -->
+  <script src="./JS/client.js"></script>
+</body>
+
+</html>
