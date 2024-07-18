@@ -1,7 +1,7 @@
 {
-  "name": "chitchat",
+  "name": "chatterbee",
   "version": "1.0.0",
-  "description": "CHITCHAT is an interactive web application that facilitates real-time communication among users. Leveraging Node.js, Express, Socket.io, and the Gemini API, it allows users to chat publicly with everyone or privately with specific individuals using unique room IDs. Additionally, users can interact with an AI to get solutions or answers to their queries.",
+  "description": "ChatterBee is an interactive web application that facilitates real-time communication among users. Leveraging Node.js, Express, Socket.io, and the Gemini API, it allows users to chat publicly with everyone or privately with specific individuals using unique room IDs. Additionally, users can interact with an AI to get solutions or answers to their queries.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
