@@ -65,7 +65,7 @@ npm start
 ---
 
 ## Contact
-<div style="width: 80px;">
+<div style="width: 30px;">
 
 ![Aman's image](https://avatars.githubusercontent.com/u/121761736?v=4)
 
