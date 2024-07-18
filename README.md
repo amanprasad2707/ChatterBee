@@ -69,10 +69,11 @@ npm start
   <img src="https://avatars.githubusercontent.com/u/121761736?v=4" alt="Aman's image" width="100px">
 </div>
 
-Aman Prasad - [LINKEDIN]("https://www.linkedin.com/in/amanprasad2707/")
+
+Aman Prasad - [LinkedIn](https://www.linkedin.com/in/amanprasad2707/)
 
 Email - aprasad2707@gmail.com
 
-Project Link - [GITHUB]("https://github.com/amanprasad2707/chitchat")
+Project Link - [GitHub](https://github.com/amanprasad2707/chitchat)
 
 #### Enjoy your conversations with CHITCHAT!
