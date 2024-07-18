@@ -74,6 +74,6 @@ Aman Prasad - [LinkedIn](https://www.linkedin.com/in/amanprasad2707/)
 
 Email - aprasad2707@gmail.com
 
-Project Link - [GitHub](https://github.com/amanprasad2707/chitchat)
+Project Link - [GitHub](https://github.com/amanprasad2707/)
 
 #### Enjoy your conversations with CHITCHAT!
