@@ -20,11 +20,11 @@
 
 <h3>Chat with friends</h3>
 
-![user chat](./Screenshots/user-chat.jpg)
+![user chat](./Screenshots/user_chat.jpg)
 
 <h3>Chat with AI</h3>
 
-![user chat](./Screenshots/AI-chat.jpg)
+![AI chat](./Screenshots/AI_chat.jpg)
 
 </div>
 
