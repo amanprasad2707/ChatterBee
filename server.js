@@ -58,6 +58,9 @@ socket.on('promptForGemini', async(prompt)=>{
 async function generateContent(prompt) {
   const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
   try {
+    if(prompt === 'hi' || prompt ==='Hi' || prompt==="hello" || prompt ==="Hello"){
+      return "Welcome to CareerHelp. How may i help you?"
+    }
     const result = await model.generateContent(prompt);
     const response = await result.response;
     const text = response.text();
