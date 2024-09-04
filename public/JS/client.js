@@ -92,7 +92,7 @@ function appendAiResponse(msg, type) {
   // Format the message by replacing newline characters with HTML line breaks
   const formattedMsg = msg.replace(/\n/g, '<br>'); // Replace \n with <br>
   const markup = `
-    <h4>${type === 'outgoing' ? 'You' : 'Codehelp'}:</h4>
+    <h4>${type === 'outgoing' ? 'You' : 'careerhelp'}:</h4>
     <p>${formattedMsg}</p>
   `;
   mainDiv.innerHTML = markup;
